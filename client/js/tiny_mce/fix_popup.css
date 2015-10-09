@@ -1,0 +1,4 @@
+html, body {background: #fff !important;}
+
+input[type=text], input[type=file], textarea {border: 1px solid #BBB !important;}
+input[type=submit], input[type=button] {background: #efefef !important;}

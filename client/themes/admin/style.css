@@ -1,0 +1,82 @@
+a img {border: none;}
+
+body {background: #fff; margin: 0; padding: 0;}
+body, * {font-family: Tahoma, Geneva, sans-serif; font-size: 13px;}
+
+h1 {font-size:18px; margin:0 0 10px 0; padding:0px;}
+h2 {font-size:16px; margin:0 0 10px 0; padding:0px;}
+h3 {font-size:14px; margin:0 0 10px 0; padding:0px;}
+h4 {font-size:13px; margin:0 0 10px 0; padding:0px;}
+
+html, body {height: 100%;}
+
+.body_wrap {height: auto; margin: 0 10px 0 10px; min-height: 100%; padding: 0 0 60px 0;}
+
+.clear {clear: both;}
+
+.config_form input[type=submit] {width: 30%;}
+
+.cursor_default {cursor: default;}
+.cursor_drag_ns {cursor: n-resize;}
+
+.footer {background: #eee; color: #777; font-size: 10px; height:20px; line-height: 20px; margin:-30px 0 0 0; padding:5px 10px 5px 10px;}
+.footer a {color: #777;}
+
+.form_item {display: block;}
+.form_item dd {display: block; float: left; margin: 0 10px 10px 0; padding: 0 10px 0 0; width: 290px;}
+.form_item dd.comment {color: #999; float: left; padding: 0; width: auto;}
+.form_item dd.full {background: #f5f5f5; clear: both; margin: 0 0 20px 0; width:450px;}
+.form_item dd input[type=text], .form_item dd input[type=password] {width:100%;}
+.form_item dd input.cache_minute {width:50px;}
+.form_item dd textarea {height:100px; width:100%;}
+.form_item dt {clear: left; display: block; float: left; margin: 0 10px 10px 0; padding: 0; width: 150px;}
+.form_item .account_status_text {display: none;}
+
+.genre_page .genre_ae {float: left; margin: 0 10px 10px 0; width: 400px;}
+.genre_page .genre_ae .form_item td {border: none;}
+.genre_page .genre_ae .form_item th {text-align: left;}
+.genre_page .genre_ae .form_item td input[type=text] {width:98%;}
+.genre_page .genre_list {float: left; min-width: 50%;}
+
+.header {background: #999; color: #eee;}
+.header a {color: #eee; text-decoration: none;}
+.header .menu {float: right; padding: 5px 10px 0 0;}
+.header .nav {background: #e5e5e5; margin-bottom: 10px;}
+.header .website {float: left; margin: 0 10px 0 0; padding: 5px 0 0 10px;}
+.header .website .logo {background: url(../../images/logo-mini.png) no-repeat; display: inline-block; height: 30px; text-indent: -90000px; width: 150px;}
+
+.list_item {border:1px solid #ddd; border-collapse: collapse; margin: 0 0 10px 0; width:100%;}
+.list_item td.row_break {background: #f5f5f5; height: 20px;}
+.list_item th, .list_item, td {border: 1px solid #ddd; border-collapse: collapse;}
+.list_item th {background: #efefef; text-align: left;}
+.list_item th a {color: #000;}
+
+.list_item_cmdleft {clear: both; float: left; height: 25px; margin: 0 10px 10px 0; width: 48%;}
+.list_item_cmdright {float: right; height: 25px; margin: 0 0 10px 0; text-align: right; width: 48%;}
+
+.no_padding {padding: 0;}
+
+.page_container {height: auto; min-height: 100%; padding: 0;}
+
+.page_login {margin: 0 auto; width:400px;}
+.page_login dl dd {display: block; float: left; margin: 0 0 10px 0; padding: 0 10px 0 0; width: 290px;}
+.page_login dl dd input[type=text], .page_login dl dd input[type=password] {width:100%;}
+.page_login dl dt {clear: left; display: block; float: left; margin: 0 0 10px 0; padding: 0; width:100px;}
+.page_login dl .captcha_fieldset {display:none;}
+.page_login form {margin: 0 0 10px 0;}
+.page_login h1 {background: url(../../images/logo-mini.png) no-repeat; height: 30px; margin: 100px auto 0 auto; padding: 0; text-align: center; text-indent: -90000px; width: 150px;}
+.page_login .forgetpw_form {background: #efefef; display: none; padding: 5px 5px 0 5px;}
+.page_login .forgetpw_form dl dd {display: block; float: left; margin: 0 0 10px 0; padding: 0 10px 0 0; width: 280px;}
+.page_login .forgetpw_form dl dt {clear: left; display: block; float: left; margin: 0 0 10px 0; padding: 0; width:100px;}
+.page_login .forgetpw_form form {margin: 0;}
+.page_login .forgetpw_toggle {background: #efefef; cursor: pointer; padding: 5px;}
+.page_login .requirement_check {margin: 0 0 20px 0; text-align: center;}
+.page_login .requirement_check img {vertical-align: top;}
+.page_login .requirement_check span {padding: 0 10px;}
+
+.show {display: block !important;}
+
+.txt_comment {color: #aaa; font-size: 11px;}
+.txt_error {background: #ffecec; border:2px solid #ffc4c4; color:#f00; font-weight: bold; margin: 0 0 10px 0; padding: 3px;}
+.txt_require {color: #f00; font-weight: bold;}
+.txt_success {background: #f7fff2; border: 2px solid #8bfa49; color: #307f00; margin: 0 0 10px 0; padding: 3px;}

@@ -1,0 +1,6 @@
+Vee's manga reader is free for use.
+author by mr.v
+website: http://www.okvee.net
+
+you are permitted to use, copy, modify the software and its documentation.
+you must contain this license file everytime you re-pack or re-distribute it.

@@ -1,0 +1,112 @@
+
+a:link {color:#164979; text-decoration: none;}
+a:visited {color:#20588b; text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+body {background: #000; color: #000;}
+body, * {font-family: Tahoma, Geneva, sans-serif; font-size: 12px;}
+
+h1 {font-size: 20px;}
+h2 {font-size: 18px;}
+h3 {font-size: 16px;}
+h4 {font-size: 14px;}
+h5 {font-size: 13px;}
+h6 {font-size: 12px;}
+
+.account_edit_profile dl dt {clear: both; float: left; font-weight: bold; margin: 0 10px 10px 0; width: 110px;}
+.account_edit_profile dl dd {float: left; margin: 0 10px 10px 0; width: 490px;}
+.account_edit_profile dl dd.comment {color: #999; float: left; margin: 0 0 10px 0; width: 300px;}
+.account_edit_profile dl dd.display_avatar {margin: 0 0 10px 0; width: 800px;}
+.account_edit_profile dl dd.display_avatar img {max-height: 200px; max-width: 200px;}
+.account_edit_profile dl dd input[type=text] {width: 480px;}
+.account_edit_profile dl dd input[type=password] {width: 480px;}
+.account_edit_profile dl dd textarea {height: 100px; width: 480px;}
+
+.account_one_column dl dt {clear: both; float: left; font-weight: bold; margin: 0 10px 10px 0; width: 110px;}
+.account_one_column dl dd {float: left; margin: 0 0 10px 0; width: 800px;}
+.account_one_column dl dd input[type=text] {width: 790px;}
+.account_one_column dl dd.captcha_fieldset input[type=text] {width: 225px;}
+.account_one_column dl dd input[type=password] {width: 790px;}
+
+.directory h1 {margin: 0 0 5px 0;}
+.directory p {margin: 0 0 10px 0;}
+.directory .dir_desc {color:#999;}
+
+.form_item dt {clear: both; float: left; font-weight: bold; margin: 0 10px 10px 0; width: 110px;}
+.form_item dd {float: left; margin: 0 10px 10px 0; width: 490px;}
+.form_item dd.comment {color: #999; float: left; margin: 0 0 10px 0; width: 300px;}
+.form_item dd.display_avatar {margin: 0 0 10px 0; width: 800px;}
+.form_item dd.display_avatar img {max-height: 200px; max-width: 200px;}
+.form_item dd input[type=text] {width: 480px;}
+.form_item dd input[type=password] {width: 480px;}
+.form_item dd textarea {height: 100px; width: 480px;}
+
+.list_index .manga {display: table; width: 100%;}
+.list_index .manga td {border-bottom: 1px solid #ccc; padding: 10px 0 10px 0; text-align: right; width: 20%;}
+.list_index .manga td.name {text-align: left; width: 80%;}
+.list_index .manga td img {max-height: 50px;}
+.list_index .manga td ul {list-style: none; margin: 0; padding: 0;}
+.list_index .manga td ul li {font-size: 11px; list-style: none; margin: 0 0 0 10px; padding: 0;}
+.list_index .manga td ul li a {color: #999;}
+
+.manga_info img {float: right; margin: 0 0 10px 10px;}
+
+.manga_list_frame {border: 1px solid #ccc; border-collapse: collapse; width: 100%;}
+.manga_list_frame th {background: #f5f5f5; border: 1px solid #ccc; font-weight: bold; padding: 5px;}
+.manga_list_frame td {border: 1px solid #ccc; padding: 5px;}
+.manga_list_frame .name {width:50%;}
+
+.mostviews h3 {font-size: 14px; margin: 0 0 10px 0;}
+.mostviews ul {list-style: none; margin: 0; padding: 0;}
+.mostviews ul li {clear:  both; list-style: none; margin: 0 0 10px 0; padding: 0;}
+.mostviews ul li img {float: left; margin: 0 10px 0 0; max-height: 50px; max-width: 50px;}
+
+.page_container {background: #fff;}
+
+.page_nav .nextprev {float: right;}
+.page_nav .selector {float: left; margin: 0 10px 0 0;}
+
+.page_footer {background: #f5f5f5; color: #aaa; font-size: 10px; padding: 10px 0;}
+.page_footer a {color: #aaa; text-decoration: none;}
+
+.read {display: table; margin: 0 auto 20px auto; max-width: 960px; min-width: 500px; width:auto;}
+.read .img {text-align: center;}
+.read .page_nav {margin: 0 0 10px 0;}
+
+.top-header {background: url(images/header-bg.png) repeat-x; height: 50px;}
+.top-inner-header {background: url(images/header-bg-inner.png) repeat-x; height: 50px;}
+.top-inner-header .logo {margin-top: 10px; max-height: 40px;}
+.top-inner-header .nav ul {display: block; list-style: none; margin: 10px 0 0 0; padding: 0;}
+.top-inner-header .nav ul li {background: #777; border-right: 1px solid #999; border-top: 1px solid #999; display: block; float: left; height: 39px; list-style: none; margin: 0; position: relative;}
+.top-inner-header .nav ul li:hover {background: #888;}
+.top-inner-header .nav ul li:hover > ul {display: block;}
+.top-inner-header .nav ul li a {color: #fff; display: block; line-height: 40px; padding: 0 20px;}
+.top-inner-header .nav ul li a:hover {text-decoration: none;}
+.top-inner-header .nav ul li.first {border-left: 1px solid #999;}
+.top-inner-header .nav ul ul {display: none; float: left; left: -1px; margin-left: 0; position: absolute; top: 29px; width:180px; z-index: 999999;}
+.top-inner-header .nav ul ul li {border: none; margin: 0; min-width: 120px;}
+.top-inner-header .nav ul ul li:hover {background: #888;}
+.top-inner-header .nav ul ul ul {left: 100%; top: 0;}
+.top-inner-header .nav .current {background: #aaa;}
+
+.txt_comment, .txt_comment * {color: #999; font-size: 12px; font-style: normal;}
+.txt_error {background: #ffecec; border:2px solid #ffc4c4; color:#f00; font-weight: bold; margin: 0 0 10px 0; padding: 3px;}
+.txt_require {color: #f00; font-weight: bold;}
+.txt_success {background: #f7fff2; border: 2px solid #8bfa49; color: #307f00; margin: 0 0 10px 0; padding: 3px;}
+
+
+/* comment style */
+.list_comment h3 {font-size: 15px; margin: 0 0 5px 0;}
+.list_comment .a_comment {background: #f5f5f5; border-radius: 5px; margin: 0 0 20px 0; min-height: 50px; padding: 5px; position: relative;}
+.list_comment ul {list-style: none; margin: 0 ; width: 75%;}
+.list_comment ul li {margin: 0;}
+.list_comment ul li.comment_name {font-weight: bold;}
+
+.post_comment {background: #eee; border-radius: 5px; color:#333; margin: 0 0 20px 0; padding: 5px;}
+.post_comment h3 {font-size: 15px; font-weight: bold; margin: 0 0 5px 0;}
+.post_comment .form_item {margin: 0 0 5px 0;}
+.post_comment .form_item .form_input {margin: 0 0 10px 0; min-width: 300px;}
+.post_comment .form_item .form_name {clear: left; float: left; margin: 0 10px 10px 0; width: 100px;}
+.post_comment .form_item .form_textarea {clear: left; display: block;}
+.post_comment .form_item .form_textarea textarea {width: 99%;}
+/* end comment style */
