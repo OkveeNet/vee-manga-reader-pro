@@ -1,0 +1,207 @@
+a, a:visited {color:#028cd7; text-decoration:underline;}
+a:hover {color:#cab000; text-decoration:none;}
+
+body {background:#fff; color:#000; margin:0px; padding:0px;}
+body, div, p, span, table, tbody, td, th, thead {font-family:tahoma, verdana, arial; font-size:12px;}
+
+h1 {font-size:18px; margin:0 0 10px 0; padding:0px;}
+h2 {font-size:16px; margin:0 0 10px 0; padding:0px;}
+h3 {font-size:14px; margin:0 0 10px 0; padding:0px;}
+h4 {font-size:13px; margin:0 0 10px 0; padding:0px;}
+
+html, body, .page_admin {height:100%;}
+
+img {border:0px;}
+
+.body_wrapper_full {margin: 0 10px 30px 10px; min-height: 100%; padding-bottom: 20px;}
+
+.box {background:#f7f7f7; border:1px solid #efefef; margin:0px 0px 10px 0px; padding:0px;}
+.box a {text-decoration:none;}
+.box > ul {display:block; list-style:none; margin:0px; padding:0px; width:100%;}
+.box > ul > li {border-bottom:1px solid #e2e2e2; border-top:1px solid #fff; display:block; margin:0px; padding:0px 0px 0px 5px;}
+.box > ul > li.lastchild {border-bottom:none;}
+.box > ul > li.lv1 {color:#028cd7; cursor:pointer;}
+.box > ul > li.selected {background:#fffef4; display:block;}
+.box > ul > li > a {display:block;}
+.box > ul.accordion > ul {background:#fbfbfb; display:none; list-style:none; margin:0px; padding:0px;}
+.box > ul.accordion > ul.selected {display:block;}
+.box > ul.accordion > ul > li {display:block; margin:0px; padding:0px 5px 0px 15px;}
+.box > ul.accordion > ul > li.selected {background:#fffef4; display:block;}
+.box > ul.accordion > ul > li > a {display:block;}
+.box > ul.un-accordion > ul {background:#fbfbfb; display:block; list-style:none; margin:0px; padding:0px 5px 0px 15px;}
+.box > ul.un-accordion > ul > li.selected {background:#fffef4; display:block;}
+
+.box_critical {background:#faefef; border: 1px solid #e13300; margin:0px 0px 10px 0px; padding: 5px;}
+
+.box_notice {background:#FFFCE8; border:1px solid #FC0; margin:0 0 10px 0; padding:5px;}
+
+.box_setting {border: 1px solid #efefef; margin:0px 0px 10px 0px; padding:3px;}
+
+.box_special {background:#e6e6e6; margin:0px 0px 10px 0px; padding:5px;}
+.box_special a {text-decoration:none;}
+
+.center {text-align:center !important;}
+
+.clear {clear:both;}
+
+.cursor {cursor:default;}
+
+.dashboard_panel {border:1px solid #efefef; margin:0 0 10px 0;}
+.dashboard_panel h2 {background:#efefef; color:#000; font-size:15px; padding:3px;}
+.dashboard_panel span {display:block; float:left; margin:0 10px 10px 5px; width:90px;}
+.dashboard_panel span a {display:block; text-align:center;}
+
+.flashupload_button {background: #efefef;}
+
+.footer {background:#efefef; font-size:10px; height:20px; margin:-30px 0px 0px 0px; padding:5px 10px 5px 10px;}
+
+.form {margin:10px 0px 0px 0px;}
+.form .list_cmd {float:left;}
+.form .pagination {float:right;}
+.form .pagination a {line-height:20px;}
+
+.fullpercent {width:100%;}
+
+.header {background:#efefef; padding:5px 10px 5px 10px;}
+.header .bar {float:right; text-align:right;}
+.header .bar div {margin:0px 0px 5px 0px;}
+.header .logo {float:left;}
+.header .logo img {margin:0 10px 0 0;vertical-align:middle;}
+
+.hide, .hidden {display:none;}
+
+.in_category .left_column {float: left; margin:0 20px 0 0; width: 400px;}
+.in_category .right_column {float:left; min-width:50%;}
+.in_category .right_column table {min-width:100%;}
+.in_category .right_column .detail {color:#999; font-size: 11px;}
+
+.in_manga .item_form td textarea {height: 200px; width: 600px;}
+
+.in_menus .left_column {float: left; margin:0 10px 0 0; width: 320px;}
+.in_menus .right_column {float:left; min-width:50%;}
+.in_menus .right_column table {min-width:100%;}
+.in_menus .right_column ul {list-style:none; margin:0px; padding: 0px;}
+.in_menus .right_column ul li {border-bottom: 1px dashed #efefef; margin:0; padding:3px 3px 3px 10px;}
+.in_menus .right_column ul li p {display: inline-block; margin: 0px; min-width:100px; padding: 0 5px 0 5px;}
+
+.in_users {display:block;}
+.in_users h1 {margin-bottom:10px;}
+.in_users .search_users {float:right;}
+.in_users .txt_error {background:#fff9ec; margin-bottom:10px; padding:3px;}
+.in_users .txt_error p {margin:5px 0px 5px 0px; padding:0px;}
+.in_users .txt_success {background:#f2fff2; margin-bottom:10px; padding:3px;}
+.in_users .txt_success p {margin:5px 0px 5px 0px; padding:0px;}
+.in_users .user_roles {float:left;}
+
+.in_settings .item_form .mini_input {width:50px;}
+
+.index_block {border: 1px solid #efefef; display: inline-block; margin-right: 10px; padding: 5px; vertical-align: top;}
+
+.item_form {display:block;}
+.item_form td {padding:0px 0px 10px 10px;}
+.item_form td input[type=text], .item_form td input[type=password] {width:300px;}
+.item_form td textarea {height:150px; width:300px;}
+.item_form th {font-weight:normal; padding:0px 0px 10px 10px; text-align:left; width:30%;}
+
+.item_list {border:1px solid #efefef; border-collapse: collapse; margin-top:3px;}
+.item_list td {border-bottom:1px solid #efefef; padding: 0 5px; vertical-align: top;}
+.item_list th {background:#efefef; padding: 0 5px; text-align:left; vertical-align: top;}
+
+.link {color:#063fff; text-decoration:none;}
+.link:hover {color:#ff8306; text-decoration:underline;}
+
+.media_ajax_browser {background:#fff; border:none; height:300px; width:100%;}
+.media_browser_frame {border:1px solid #ccc; margin:0 0 10px 0;}
+
+.navigation_bar {background: #e5e5e5; margin: 0 0 20px 0;}
+
+.no_underline {text-decoration: none;}
+
+.page_admin {height:auto; min-height:100%; padding:0px;}
+.page_admin .body_wrapper {margin:0px 10px 30px 200px; min-height:100%; padding-bottom:20px;}
+.page_admin .body_wrapper .column_left {clear:left; float:left; margin:0px 10px 0px -190px; position:relative; width:180px;}
+.page_admin .body_wrapper .column_main {float:left; margin:0px; width:100%;}
+.page_admin .header {margin-bottom:0px;}
+
+.page_login {padding:5px; margin:100px auto; width:300px;}
+.page_login input[type=text] {width:290px;}
+.page_login input[type=password] {width:290px;}
+.page_login .reset_password {background:#f2f9ff; margin-top:10px; padding:3px;}
+.page_login .reset_password p {margin:5px 0px 5px 0px;}
+.page_login .txt_error {background:#fff9ec; padding:3px;}
+.page_login .txt_error p {margin:5px 0px 5px 0px; padding:0px;}
+.page_login .txt_success {background:#f2fff2; padding:3px;}
+.page_login .txt_success p {margin:5px 0px 5px 0px; padding:0px;}
+.page_login #logo {margin-bottom:10px; text-align:center;}
+
+.pointer {cursor:pointer;}
+
+.txt_comment {color:#8f8f8f;}
+.txt_disabled {color:#999;}
+.txt_error {background: #fedfdf; color:#f00; font-weight:bold; margin-bottom: 10px; padding: 3px;}
+.txt_error p {margin: 0; padding: 0;}
+.txt_required {color: #f00; font-weight: bold;}
+.txt_success {background: #c1f6c1; color:#00bf00; font-weight:bold; margin-bottom: 10px; padding: 3px;}
+
+/* id ------------------------------------------------------------------------------------------------------------*/
+
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#sortable li {cursor:n-resize; height: 18px;  margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em;}
+#sortable li span {cursor:n-resize; position: absolute; margin-left: -1.3em; }
+#sortable tbody td {cursor:n-resize;}
+
+/* swfupload---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.progressWrapper {
+	width: 357px;
+	overflow: hidden;
+}
+
+.progressContainer {
+	margin: 5px;
+	padding: 4px;
+	border: solid 1px #E8E8E8;
+	background-color: #F7F7F7;
+	overflow: hidden;
+}
+
+.progressName {
+	font-size: 8pt;
+	font-weight: 700;
+	color: #555;
+	width: 323px;
+	height: 14px;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.progressBarInProgress,
+.progressBarComplete,
+.progressBarError {
+	font-size: 0;
+	width: 0%;
+	height: 2px;
+	background-color: blue;
+	margin-top: 2px;
+}
+
+.progressBarComplete {
+	width: 100%;
+	background-color: green;
+	visibility: hidden;
+}
+
+.progressBarError {
+	width: 100%;
+	background-color: red;
+	visibility: hidden;
+}
+
+.progressBarStatus {
+	margin-top: 2px;
+	width: 337px;
+	font-size: 7pt;
+	font-family: Arial;
+	text-align: left;
+	white-space: nowrap;
+}

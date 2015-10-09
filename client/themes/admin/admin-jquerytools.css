@@ -1,0 +1,24 @@
+/**
+ *jquery tools css
+ */
+
+.jqtools_overlay { 
+    background-image:url(../../../../vb-sys/js/jquery.tools/white.png);
+	display:none;
+    font-size:13px;
+	padding:50px;
+	width:830px;
+}
+
+.jqtools_overlay .close { 
+    background-image:url(../../../../vb-sys/js/jquery.tools/close.png);
+    position:absolute; right:10px; top:10px;
+	cursor:pointer;
+	height:35px;
+    width:35px;
+}
+
+.contentWrap { 
+    height:810px;
+    overflow-y:hidden;
+}
